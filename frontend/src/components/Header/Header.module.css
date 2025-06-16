@@ -1,0 +1,27 @@
+.app_start {
+    border: 1px solid #999;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.app_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.form_header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button_header {
+    width: 111px;
+    height: 32px;
+    background-color: #7695EC;
+    color: #FFF;
+    align-self: flex-end;
+}

@@ -1,0 +1,58 @@
+.article {
+    border: 1px solid #999;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.section_header {
+    width: 100%;
+    height: 60px;
+    background-color: #7695EC;
+    border-radius: 16px 16px 0 0;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_header h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFF;
+}
+
+.controls_header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section_sub {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: #777;
+}
+
+.section_content {
+    padding: 0 16px 16px 16px;
+    white-space: pre-wrap;
+}
+
+.control_trash svg,
+.control_edit svg {
+    width: 25px;
+    height: 25px;
+}
+
+.control_trash,
+.control_edit {
+    background-color: transparent;
+    color: #FFF;
+}
+
+.control_trash:hover,
+.control_edit:hover {
+    color: #222;
+    background-color: transparent;
+}

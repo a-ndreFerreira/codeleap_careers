@@ -1,0 +1,39 @@
+.wrapper_modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 500px;
+    background-color: #FFF;
+    padding: 16px;
+    border: 1px solid #DDD;
+    border-radius: 16px;
+}
+
+.modal h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button_modal {
+    width: 111px;
+    height: 32px;
+    background-color: #7695EC;
+    color: #FFF;
+    text-transform: uppercase;
+    align-self: flex-end;
+}

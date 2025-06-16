@@ -1,0 +1,13 @@
+.app_container {
+    width: 100%;
+}
+
+.app_wrapper {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.app_main {
+    padding: 16px;
+}
