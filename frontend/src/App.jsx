@@ -76,9 +76,15 @@ function MainApp() {
 
   if (loading) return <p>Loading posts...</p>;
   if (loadingDelete) return <p>Deleting post...</p>;
-  if (error) return <p>{error}</p>;
-  if (errorDelete) return <p>{errorDelete}</p>;
-  if (errorPost) return <p>{errorPost}</p>;
+  if (error) {
+    toast(`${error}`)
+  }
+  if (errorDelete) {
+    toast(`${errorDelete}`)
+  }
+  if (errorPost) {
+    toast(`${errorPost}`)
+  }
   return (
     <div className="app_container">
       {
