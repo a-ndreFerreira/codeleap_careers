@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css'
 
-const NAvbar = ({ handleSignout }) => {
+const Navbar = ({ handleSignout }) => {
 
     return (
         <nav className={styles.nav}>
@@ -14,4 +14,4 @@ const NAvbar = ({ handleSignout }) => {
     )
 }
 
-export default NAvbar;
+export default Navbar;
